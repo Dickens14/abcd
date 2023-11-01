@@ -1,0 +1,108 @@
+
+@media (max-width: 700px) {
+
+	marquee{
+		font-size: 110% ;
+        height: 8vh;
+	}
+
+    header{
+        height: 20vh;
+        
+    }
+
+    .pc_logo{
+        width: 20%;
+        height: 18vh;
+        border-radius: 50%;
+    }
+
+    .buc_logo{
+        display: none;
+    }
+
+    .title{
+        text-align: right;
+        padding: 10px 11% 0 0;
+      }
+
+    .title b{
+        font-size: 120%;
+    }
+
+    .buc h1{
+        font-size: 110%;
+    }
+
+      footer {
+        position: unset;
+        margin-top: 205px;
+    }
+
+    .buc{
+        width: 80%;
+        padding: 0 10% 0 10%;
+    }
+
+    header nav span input{
+        color: white;
+        float: right;
+        font-size: 30px;
+        line-height: 80px;
+        margin-right: 20px;
+        cursor: pointer;
+        display: n;
+    }
+
+    .tab{
+        position: fixed;
+        width: 40%;
+        height: max-content;
+        background-color: #34495e;
+        top: 80px;
+        right: 0;
+        margin-right: 10px;
+        text-align: center;
+    }
+
+    .tablinks{
+        align-content: center;
+        text-align: center;
+    }
+
+    .tab .tablinks{
+        display: block;
+        margin: 2px 5px 5px 5px;
+        font-size: 14px;
+
+    }
+
+    footer a{
+        background-color: rgb(225, 220, 220);
+        padding: 2px 60px 2px 60px;
+        font-size: 118%;
+        font-family: sans-serif;
+    }
+
+    footer a:hover{
+        background-color: greenyellow;
+    }
+
+    .tablinks{
+        /* position: absolute;
+        content: '';
+        left: 0;
+        bottom: 0;
+        height: 3px;
+        width: 100%;
+        background-color: white;
+        transform-origin: right; */
+    }
+
+    .tabcontent {  /* Style the tab content */
+        border: 3px solid green;
+        font-size: 110%;
+        padding: -3px;
+     }
+
+}
